@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS 3</title>
+  <style type="text/css">
+  body {
+    margin: 0;
+    background: url('photo_splash_signin_800x532_v4.jpg');
+  }
+
+  .my-header {
+    background: #283e4a;
+    height: 50px;
+    color: #c0c0c0;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .logo {
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .profile-img {
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -5px;
+  }
+
+  .my-header .right-section {
+    float: right;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .my-header .right-section li {
+    display: inline-block;
+  }
+
+  .backto {
+    margin-top: -10px;
+    margin-right: 10px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #202020;
+  }
+
+  .footer {
+    list-style-type: none;
+    height: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .footer li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+
+  .my-login-form {
+   background: #403838;
+    width: 30%;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+    opacity: .7;
+        margin: 0 auto;
+    margin-top: 12%;
+  }
+
+  p {
+    background-color: #2196F3;
+    height: 33px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 97px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    margin-left: 154px;
+    margin-top: 20px;
+  }
+
+  .user-name, .password {
+    color: white;
+    font-size: 20px;
+  }
+
+  .user-name-input {
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+
+  .password-input {
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    margin-left: 13px;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+
+  .login-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 67%;
+    /* background: #939092; */
+    color: white;
+    /* border: 2px solid #ab828c; */
+    border-radius: 10px;
+    font-size: 25px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h1 {
+  	color: white;
+  }
+  .login-btn:hover {
+  	cursor: pointer;
+  	    background: #3b595d;
+  	
+  }
+
+  </style>
+</head>
+
+<body>
+  <!-- <marquee>LINKED IN</marquee> -->
+  <header class="my-header">
+    <img src="linkedin-icon.png" class="logo">
+    <ul class="right-section">
+      <li class="backto">Back to LinkedIn.com</li>
+      <li>
+        <img src="profileImg.jpg" class="profile-img">
+      </li>
+    </ul>
+  </header>
+  <content>
+    <form class="my-login-form">
+      <h1>Login</h1>
+      <div class="user-name">
+        <label>User Name:</label>
+        <input type="text" placeholder="Please Enter the User Name" class="user-name-input">
+      </div>
+      <br>
+      <div class="password">
+        <label>Password:</label>
+        <input type="password" placeholder="Please enter the Password" class="password-input">
+      </div>
+      <br>
+      <div>
+        <div class="login-btn">Login</div>
+      </div>
+    </form>
+  </content>
+  <footer>
+    <ul class="footer">
+      <li>LinkedIn Corporation © 2017</li>
+      <li>User Agreement</li>
+      <li>Ad Choices</li>
+      <li>Community</li>
+      <li>GuidelinesCookie</li>
+      <li>PolicyCopyright</li>
+      <li>PolicySend</li>
+      <li>Feedback</li>
+    </ul>
+  </footer>
+</body>
+
+</html>

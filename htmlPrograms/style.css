@@ -1,0 +1,48 @@
+/*.mybody {
+  background: red !important;
+  color: white;
+}
+
+.my-table {
+	background: black;
+	width: 50%;
+	border: 5px solid green;
+}
+
+table .heading {
+	background: green;
+}
+
+.heading {
+	color: black;
+}
+
+.my-table tbody tr {
+	background: yellow;
+}*/
+
+.table1 {
+	border:1px solid red;
+}
+
+.table2 tr {
+	background: green;
+}
+
+.table1 td, .table1 th {
+	background: orange;
+}
+
+.table1, .table2 {
+	color: white;
+}
+
+
+.table3 thead {
+	background: blue;
+	color: #fff;
+}
+
+.tr-bg-color {
+ background: #aaaaeb;
+}
