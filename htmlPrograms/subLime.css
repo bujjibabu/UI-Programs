@@ -1,0 +1,85 @@
+.header {
+    background: #4B4B4B;
+    height: 60px;
+    padding: 16px 0;
+}
+
+.left-header {
+    width: 20%;
+    display: inline-block;
+}
+
+.left-header li {
+    list-style-type: none;
+}
+
+.right-header {
+    float: right;
+}
+
+.right-header li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    padding-right: 50px;
+}
+
+.shophisticated-heding {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.download-mac-sec {
+    text-align: center;
+}
+
+.download-mac-sec li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 28px;
+}
+
+.download-mac-btn {
+    background: #888;
+    color: white;
+    height: 35px;
+    padding-top: 6px;
+    border-radius: 2px;
+}
+
+.download-mac-btn:hover {
+    background: #716c6c;
+    cursor: pointer;
+}
+
+.sublime-img {
+    margin-left: 5%;
+}
+
+.features-heading {
+    text-align: center;
+}
+
+.footer-right {
+    clear: both;
+    height: 128px;
+    background: #eee;
+    clear: both;
+}
+
+.footer-prgh {
+    margin-left: 68px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.footer-img {
+	    position: relative;
+    float: right;
+    top: -82px;
+}
+
+.text-link {
+	text-decoration-line: underline;
+}
