@@ -1,0 +1,16 @@
+.my-table {
+    /*border: 5px solid red;*/
+    /*border-top: 4px solid green;
+			border-right: 4px solid red;
+			border-bottom: 4px solid green;
+			border-left: 4px solid red;*/
+    border: 2px solid red;
+    width: 30%;
+    background: url('photo_splash_signin_800x532_v4.jpg');
+  }
+
+  tr td,
+  tr th {
+    border: 1px solid black;
+    text-align: center;
+  }
