@@ -29,41 +29,37 @@
     cursor: pointer;
 }
 
-.shophisticated-heding {
-    text-align: center;
-    margin: 30px 0;
+.old-theme, .new-theme, .result-theme, .linux-theme {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.build-error-img, .definition-img {
+    margin-bottom: 15px;
+}
+
+.clear-both-sec {
+    clear: both;
+}
+
+.subscribe-heading {
+    margin-top: 40px;
+    color: #6690cc;
+    text-decoration: underline;
+    font-size: 18px;
 }
 
 
-.download-mac-sec {
-    text-align: center;
-}
-
-.download-mac-sec li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 0 28px;
-    padding-top: 6px;
-}
-
-.download-mac-btn {
-    background: #888;
-    color: white;
-    height: 35px;
-    border-radius: 2px;
-}
-
-.download-mac-btn:hover {
-    background: #716c6c;
+.archives-list li {
+        text-decoration-line: underline;
+    color: #6690cc;
     cursor: pointer;
+    padding-top: 5px;
+    font-size: 15px;
 }
 
-.sublime-img {
-    margin-left: 5%;
-}
-
-.features-heading {
-    text-align: center;
+.oldest-post {
+    margin-bottom: 50px;
 }
 
 .footer-right {
@@ -80,12 +76,12 @@
 }
 
 .footer-img {
-	    position: relative;
+        position: relative;
     float: right;
     top: -82px;
 }
 
 .text-link {
-	text-decoration-line: underline;
+    text-decoration-line: underline;
     cursor: pointer;
 }
