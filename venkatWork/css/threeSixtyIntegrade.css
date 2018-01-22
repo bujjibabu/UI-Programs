@@ -1,0 +1,187 @@
+.header-img {
+    margin-left: 15%;
+}
+
+.left-header {
+    list-style-type: none;
+    width: 40%;
+    display: inline-block;
+}
+
+.right-header {
+    list-style-type: none;
+    float: right;
+    margin-right: 20%;
+}
+
+.right-header li {
+    display: inline-block;
+    padding-left: 24px;
+    margin-top: 20px;
+}
+
+.right-header a {
+    text-decoration: none;
+    color: black;
+}
+.right-header a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.email-me-btn {
+    float: right;
+    padding-right: 20px;
+    background: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.heading {
+    margin-left: 15%;
+    width: 35%;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 275px;
+    margin: 0 auto;
+    margin-bottom: -130px;
+}
+
+
+.learn-more-btn {
+    padding: 14px 25px;
+    color: white;
+    background: none;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+.learn-more-btn:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.protected-heading {
+    margin-left: 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.integrated-prgh {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.help-prgh {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tablePrgh {
+    width: 22%;
+    text-align: center;
+}
+
+.icon-prgh {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ok-icon {
+    text-align: center;
+}
+
+.partnering-img {}
+
+.partnering-prgh {
+    position: absolute;
+    top: 1015px;
+}
+
+.partnering-heading {
+    width: 78%;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+}
+
+.director-prgh {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.design-table {
+    padding-left: 0;
+    margin-left: 7%;
+    margin-right: 7%
+}
+
+.design-three-images {
+    border-radius: 50%;
+}
+
+.design-three-images-equalPdng {
+    width: 33.3%;
+}
+
+.design-three-subheadings {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.design-three-prghs {
+    text-align: center;
+}
+
+.design-learnmore-btn {
+    padding: 14px 25px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.design-learnmore-btn:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.help-img {
+    margin-top: 32px;
+}
+
+.help-img-prgh {
+    position: absolute;
+    top: 2020px;
+    text-align: center;
+    color: white;
+    margin-left: 15%
+}
+
+
+
+.footer-main {
+    background: #4e4347;
+    margin-top: 50px;
+    padding: 20px 10%;
+    color: white;
+}
+
+.footer-main li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer-right {
+    float: right;
+    position: relative;
+    top: -78px;
+    margin-bottom: 0px;
+}
