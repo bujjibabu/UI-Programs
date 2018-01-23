@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+</head>
+<body>
+	Result:: <span id="result"></span>
+  <input type="text" value="bujji" id="inputText">
+  <span id="spanText">this is my span tag in html</span>
+
+<script type="text/javascript">
+ var x = 6, y = 7, z = x + y;
+ // alert(x);
+ // console.log(x);
+ //document.getElementById('result').innerText = x;
+ document.getElementById('result').innerHTML = '<b>' + z + '</b>';
+ //document.getElementById('result').innerText = "<b> 11 </b>";
+ //document.write(x);
+ var inputval = document.getElementById('inputText').value
+ //alert(inputval);
+ var spanVal = document.getElementById('spanText').innerText;
+ document.getElementById('spanText').innerText = 'changed span tag text';
+ //alert(spanVal)
+</script>
+</body>
+</html>

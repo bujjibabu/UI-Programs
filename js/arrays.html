@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+</head>
+<body>
+<script type="text/javascript">
+	var myArr = []; //empty array 
+	var myArr1 = [1, 4, 8, true, 'babu'];
+	var myArr2 = [
+	{name: 'bujji', address:'hyd'},
+	{sno:1},
+	{username:'babu', pwd:123}
+	];
+
+	var myArr3 = [5,7,9];
+	console.log(myArr3[2]); // 9
+	console.log(myArr3[0]) // 5
+  console.log(myArr2[2]) // {username:'babu', pwd:123}
+  console.log(myArr2[2].username) // babu
+  console.log(myArr2[2]['username']) // 
+
+  var myArr4 = [{name:'user1'}, 127, true, { details:{pin:50084, city:'hyd'} }];
+  console.log(myArr4[3].details.city) //
+  console.log(myArr4[3].details.pin) //
+  // c r u d 
+  //myArr4[3].details.city = 'vizag';
+  myArr4[3].details['city'] = 'usa';
+  console.log(myArr4[3])
+  console.log('before deteting:: ',myArr3);
+  console.log(myArr3.length);
+  delete myArr3[1];
+  console.log('after deteting 7 :: ', myArr3);
+  console.log(myArr3.length);
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+</head>
+
+<body>
+  <button onclick="buttonClick()">Click Me</button>
+  <button onclick="clickHere()">Click Here</button>
+  <button onclick="Add(3, 7)">Add</button>
+  <button onclick="Mul(3, 7)">mul</button>
+  <button onclick="MulTest(3, 7, 2)">mul1</button>
+  <button onclick="AddTest(3, 7, '5')">AddTest</button>
+
+  <script type="text/javascript">
+  	function buttonClick () {
+  		alert('clicked');
+  	};
+
+  	var clickHere = function () {
+  		alert('click here');
+  	};
+
+  	function Add (a, b) {
+  		alert(a + b);
+  	};
+
+  	var Mul = function(x, y) {
+ 			alert(x*y);
+  	};
+
+  	function MulTest(i, j) {
+  		alert(i*j);
+  	};
+
+  	function AddTest(p, q, r) {
+  		alert(p+q+r);
+  	};
+
+  </script>
+</body>
+
+</html>

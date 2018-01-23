@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>scope</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+ 
+  function add() {
+    z = x + y;
+    console.log("sum::", z); // 7 
+  }
+
+  function mul() {
+    /*	var x = 3;
+    	var y = 3;*/
+    z = x * y;
+    //console.log("Mul::", z); // 9
+  };
+
+  function abc() {
+    //console.log('abc::', z); // 10
+  };
+
+  mul(); // 10
+  //console.log('Mul Z::', z); //
+
+   add(); // calling.. // 7
+  //console.log('sum Z::', z);
+
+  abc(); //
+ /* =============================== function level not block level =======*/
+
+
+  function test() {
+  	if(true) {
+  		var x = 10;
+  		console.log('temp1::', x); // 10
+  	}
+  	console.log('temp1::', x); // 10
+  };
+
+  console.log('x before', x); //2
+
+  test();
+
+  console.log('x after', x); //10
+
+ var x = 2, y = 5, z;
+
+ </script>
+</body>
+
+</html>
