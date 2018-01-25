@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body class="container" ng-app="">
+  <div ng-controller="mainCtrl">
+    <form class="col-sm-4">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Number1</label>
+        <input type="number" class="form-control" placeholder="Enter First No" ng-model="fNo">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Number2</label>
+        <input type="number" class="form-control"  placeholder="Enter Second NO"  ng-model="sNo">
+      </div>
+      <button type="submit" class="btn btn-default" ng-click="Add()">Sum</button>
+    </form>
+    <div class="col-xs-12">
+    	<h2>Result: <span>{{result}}</span></h2>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://code.angularjs.org/1.0.1/angular-1.0.1.js"></script>
+  <script type="text/javascript">
+  function mainCtrl($scope) {
+    //console.log('mainCtrl calling...');
+    //$scope.myData = 'This data getting from db';
+
+    $scope.Add =  function() {
+    	//alert('add function firing');
+    	$scope.result = $scope.fNo + $scope.sNo;
+    };
+
+  }
+  </script>
+</body>
+
+</html>

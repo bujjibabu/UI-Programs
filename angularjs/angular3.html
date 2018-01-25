@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body class="container" ng-app="">
+  <div ng-controller="mainCtrl">
+    <form class="col-sm-4">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Number1</label>
+        <input type="number" class="form-control" placeholder="Enter First No" ng-model="fNo">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Number2</label>
+        <input type="number" class="form-control" placeholder="Enter Second NO" ng-model="sNo">
+      </div>
+      <button type="submit" class="btn btn-default" ng-click="Add()">Sum</button>
+    </form>
+    <br>
+    <br>
+    <h2 class="col-xs-12">Student Details:</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>S.NO</th>
+          <th>Name</th>
+          <th>Marks</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="obj in studentData">
+          <td>{{$index + 1}}</td>
+          <td>{{obj.name}}</td>
+          <td>{{obj.marks}}</td>
+          <td>{{obj.grade}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://code.angularjs.org/1.0.1/angular-1.0.1.js"></script>
+  <script type="text/javascript">
+
+  function mainCtrl($scope) {
+
+     $scope.studentData = 
+[
+      {
+        name: 'user1',
+        marks: 100,
+        grade: 'A'
+      },
+      {
+        name: 'user2',
+        marks: 90,
+        grade: 'B'
+      },
+      {
+        name: 'user3',
+        marks: 80,
+        grade: 'C'
+      },
+      {
+        name: 'user4',
+        marks: 85,
+        grade: 'C'
+      },
+      {
+        name: 'user5',
+        marks: 99,
+        grade: 'A'
+      },
+      {
+        name: 'user6',
+        marks: 99,
+        grade: 'A'
+      }
+    ];
+/*for (var i = 0; i < studentData.length; i++) {
+ var appendtr =  '<tr><td>'+ (i+1) +'</td> <td>' + studentData[i].name + '</td> <td>'+studentData[i].marks +'</td> <td>' + studentData[i].grade + '</td> <tr>';
+  $('#mybody').append(appendtr);
+}*/
+/*console.log(studentData[3].name); // venkat
+console.log(studentData[3]['name']); // venkat*/
+
+
+  }
+  </script>
+</body>
+
+</html>
