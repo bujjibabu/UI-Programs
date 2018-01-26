@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Med Tron</title>
+    <link rel="stylesheet" type="text/css" href="../css/medTron.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="col-sm-12 header">
+        <span class="med-logo"><img src="https://www.medtronic-diabetes.com.au/sites/all/themes/medtronic/logo.png"></span>
+        <span class="country-select">AMERICA</span>
+    </div>
+    <div class="col-sm-12 main-sub-header">
+        <ul class="sub-header">
+            <li>IP Treatment</li>
+            <li>Produts List</li>
+            <li>Live With DBTS</li>
+            <li>Communities</li>
+            <li>Suport</li>
+            <li>Shoping</li>
+            <li>Contact Info</li>
+        </ul>
+    </div>
+    <div class="col-sm-10" style="margin-left: 2.5%;">
+        <img src="https://www.medtronic-diabetes.com.au/sites/default/files/hero-image_31.png">
+    </div>
+    <div>
+        <!-- <h1>WHY WAIT? GET STARTED WITH MINIMEDTM 640G SYSTEM</h1> -->
+        <div class="col-sm-4 why-wait remove-margin">
+            <h1>WHY WAIT? GET STARTED WITH</h1>
+            <h1 class="why-wait-second-prgh">MINIMEDTM 640G SYSTEM</h1>
+        </div>
+        <div class="col-sm-7 request-sec">
+            <p class="img-request-prgh">Request a call today, to discuss the benefits of an Insulin Pump Therapy with a Medtronic Diabetes Therapy Consultant.</p>
+            <form class="personal-info">
+                <div class="form-group">
+                    <label>First name *</label>
+                    <input type="name" class="form-control" id="fName" placeholder="Sample">
+                </div>
+                <span class="text-danger hidden fNameError">First name field is required.</span>
+                <div class="form-group">
+                    <label ">Last name *</label>
+                        <input type="name " class="form-control " id="lName " placeholder="Sample ">
+                    </div>
+                    <span class="text-danger hidden lNameError ">Last name field is required.</span>
+                    <div class="form-group ">
+                        <label">Email *</label>
+                    <input type="email" class="form-control" id="emailID" placeholder="Sample@gmail.com">
+                </div>
+                <span class="text-danger hidden emailIDError">Email field is required.</span>
+                <div class="form-group">
+                    <label ">Phone *</label>
+                        <input type="number " class="form-control " id="phoneNum " placeholder="9876543210 ">
+                    </div>
+                    <span class="text-danger hidden phoneNumError ">Phone field is required.</span>
+                    <div class="form-group ">
+                        <label">Postcode *</label>
+                    <input type="name" class="form-control" id="postCD" placeholder="21117">
+                </div>
+                <span class="text-danger hidden postCDError">Postcode field is required.</span>
+                <p>Terms accepted *</p>
+                <div>
+                    <span>
+                    		<input  class="by-ticking-checkbox" type="checkbox" name="checkbox">
+                    	</span>
+                    <span>
+                    		<p class="by-ticking">By clicking this box and providing information, I understand and agree that my personal information is being collected by Medtronic and entered into a database for the purpose of communicating offers and specials related to Medtronic products, services and technological advancements. **Be sure to discuss questions specific to your health and treatments with a healthcare professional.</p>
+                    	</span>
+                    <span class="text-danger hidden">Terms accepted field is required.</span>
+                </div>
+                <button type="button" class="request-btn btn btn-success" onclick="requestCall()">REQUEST A CALL</button>
+                <p class="be-sure-prgh">Be sure to discuss questions specific to your health and treatments with a healthcare professional.</p>
+            </form>
+        </div>
+        <div class="col-sm-4 remove-margin img-remote padding-left">
+            <img src="https://www.medtronic-diabetes.com.au/sites/default/files/640g_0.png" width="103.7%">
+        </div>
+        <div class="col-sm-12 sub-footer-sec">
+            <table class="sub-footer-sec-padding">
+                <tr>
+                    <th class="vertical-line why-wait-second-prgh">5 WAYS TO GET STARTED</th>
+                    <th class="vertical-line"><img src="https://www.medtronic-diabetes.com.au/sites/default/files/call-back-icon.png"></th>
+                    <th class="vertical-line"><img src="https://www.medtronic-diabetes.com.au/sites/default/files/call-us-icon.png"></th>
+                    <th class="vertical-line"><img src="https://www.medtronic-diabetes.com.au/sites/default/files/newsletter-icon.png"></th>
+                    <th class="vertical-line"><img src="https://www.medtronic-diabetes.com.au/sites/default/files/community-icon_1.png"></th>
+                    <th><img src="https://www.medtronic-diabetes.com.au/sites/default/files/locate-cpt-icon.png"></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>REQUEST CALL BACK</td>
+                    <td>CONTACT US 9876543210</td>
+                    <td>JOIN NEWSLETTER</td>
+                    <td>CONNECT WITH COMMUNITY</td>
+                    <td>LOCATE PRODUCT TRAINEE</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-sm-12 sub-footer-second-sec">
+            <div class="social-icons-sec">
+                <img src="https://www.medtronic-diabetes.com.au/sites/default/files/images/social-media/facebook-extrasmall.png">
+                <img src="https://www.medtronic-diabetes.com.au/sites/default/files/images/social-media/twitter-extrasmall.png">
+                <img src="https://www.medtronic-diabetes.com.au/sites/default/files/images/social-media/youtube-extrasmall.png">
+                <img src="https://www.medtronic-diabetes.com.au/sites/default/files/images/social-media/instagram-extrasmall.png">
+            </div>
+            <div class="footer-privacy-links">
+                <ul>
+                    <li>Privacy Statements</li>
+                    <li>Terms of Use</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+            <center class="font-color">&copy; 2017 Medtron America Pty Ltd All rights reserved.1660-122222 </center>
+            <center class="font-color">5 Alma Road, Macquarie Park, New South Wales, America, 21117, Phone: 9876543210</center>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../javaScript/medTron.js"></script>
+</body>
+
+</html>

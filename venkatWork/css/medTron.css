@@ -1,0 +1,142 @@
+.padding-left {
+    padding-left: 0px;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #004b87;
+}
+
+.med-logo {
+    padding-left: 5%;
+}
+
+.country-select {
+    float: right;
+    color: white;
+    margin-right: 5%;
+}
+
+.sub-header li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 55px;
+    color: white;
+}
+
+.main-sub-header {
+    clear: both;
+    background-color: #0085ca;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
+.why-wait {
+    background-color: #003366;
+    color: white;
+    height: 500px;
+    text-align: inherit
+}
+
+.remove-margin {
+    margin-left: 3.7%;
+}
+
+.why-wait-second-prgh {
+    color: green;
+}
+
+.request-sec {
+    color: #fff;
+    background-color: #001e46;
+    height: 850px;
+}
+
+.img-remote {
+    position: absolute !important;
+    top: 966px !important;
+}
+
+.img-request-prgh {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.personal-info input {
+    height: 50px;
+    border-radius: none;
+    border: none;
+}
+
+.by-ticking {
+    position: relative;
+    bottom: 38px;
+    left: 30px;
+    font-size: 12px;
+}
+
+.by-ticking-checkbox {
+    width: 100%;
+}
+
+.request-btn {
+    height: 50px;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    font-weight: bold !important;
+    border-radius: 0px !important;
+}
+
+
+.request-btn:hover {
+    background-color: white !important;
+    color: green !important;
+}
+
+.be-sure-prgh {
+    margin-top: 40px;
+}
+
+.sub-footer-sec {
+    background-color: #001e46;
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.sub-footer-sec-padding th,
+td {
+    padding-left: 85px;
+    color: white;
+}
+
+.vertical-line {
+    border-right: 1px solid #003366;
+    padding-right: 20px;
+}
+
+.sub-footer-second-sec {
+    background-color: #003366;
+    height: 200px;
+}
+
+.social-icons-sec {
+	    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-privacy-links {    
+	text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer-privacy-links li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.font-color {
+	color: white;
+}
