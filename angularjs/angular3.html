@@ -41,17 +41,13 @@
       </tbody>
     </table>
   </div>
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://code.angularjs.org/1.0.1/angular-1.0.1.js"></script>
   <script type="text/javascript">
-
   function mainCtrl($scope) {
 
-     $scope.studentData = 
-[
-      {
+    $scope.studentData = [{
         name: 'user1',
         marks: 100,
         grade: 'A'
@@ -82,12 +78,12 @@
         grade: 'A'
       }
     ];
-/*for (var i = 0; i < studentData.length; i++) {
- var appendtr =  '<tr><td>'+ (i+1) +'</td> <td>' + studentData[i].name + '</td> <td>'+studentData[i].marks +'</td> <td>' + studentData[i].grade + '</td> <tr>';
-  $('#mybody').append(appendtr);
-}*/
-/*console.log(studentData[3].name); // venkat
-console.log(studentData[3]['name']); // venkat*/
+    /*for (var i = 0; i < studentData.length; i++) {
+     var appendtr =  '<tr><td>'+ (i+1) +'</td> <td>' + studentData[i].name + '</td> <td>'+studentData[i].marks +'</td> <td>' + studentData[i].grade + '</td> <tr>';
+      $('#mybody').append(appendtr);
+    }*/
+    /*console.log(studentData[3].name); // venkat
+    console.log(studentData[3]['name']); // venkat*/
 
 
   }

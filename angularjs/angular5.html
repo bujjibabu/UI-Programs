@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body class="container"  ng-controller="mainCtrl">
+  <div>
+    {{myString | limitTo: mylimitTono }}
+
+    <a ng-click="mylimitTono = myString.length" ng-hide="mylimitTono == myString.length">Show More</a>
+    <a ng-click="mylimitTono = 100" ng-hide="mylimitTono != myString.length">Show less</a>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+  <script type="text/javascript">
+    angular.module('myApp', []).controller('mainCtrl',  function($scope) {
+      $scope.myString = "This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.This is the core collection of directives you would use in your template code to build an AngularJS application.";
+
+      $scope.mylimitTono = 100;
+
+    })
+  </script>
+</body>
+
+</html>
