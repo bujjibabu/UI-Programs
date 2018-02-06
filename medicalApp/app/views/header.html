@@ -1,0 +1,42 @@
+<div class="header medical-header">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="primary-header">
+      <div class="my-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" ng-bind="header.myAppName"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="js-navbar-collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#/">AUSTRALIA</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="secondry-header clearfix">
+      <div class="my-container">
+        <ul class="list-unstyled list-inline pull-left">
+          <li ng-repeat="item in header.menuNames" ng-click="header.menuItemClick(item.page)">{{item.name}}</li>
+        </ul>
+        <ul class="pull-right list-unstyled list-inline search">
+          <li><a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-search"></span> Search </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse search-form" id="collapseExample">
+      <div class="form-group has-success has-feedback my-container">
+        <label class="control-label sr-only" for="inputGroupSuccess4">Input group with success</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="inputGroupSuccess4" aria-describedby="inputGroupSuccess4Status">
+           <span class="input-group-addon glyphicon glyphicon-search"></span>
+        </div>
+        <span id="inputGroupSuccess4Status" class="sr-only">(success)</span>
+      </div>
+    </div>
+  </div>
+</div>

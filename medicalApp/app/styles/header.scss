@@ -1,0 +1,35 @@
+.medical-header {
+  .primary-header {
+    background-color: $primaryColor1;
+    a {
+      color: $primaryColor2 !important;
+    }
+  }
+  .secondry-header {
+    background: $primaryColor3;
+    color: $primaryColor2;
+    ul {
+      margin: 0;
+      li {
+        padding: 15px 10px;
+        cursor: pointer;
+        a {
+          color: $primaryColor2;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .my-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .search:hover {
+    background: $primaryColor1;
+  }
+  .search-form {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: $primaryColor1;
+  }
+}
