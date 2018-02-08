@@ -1,20 +1,20 @@
 .medical-header {
   .primary-header {
-    background-color: $primaryColor1;
+    background-color: $primary-color-first;
     a {
-      color: $primaryColor2 !important;
+      color: $primary-color-second !important;
     }
   }
   .secondry-header {
-    background: $primaryColor3;
-    color: $primaryColor2;
+    background: $primary-color-third;
+    color: $primary-color-second;
     ul {
       margin: 0;
       li {
         padding: 15px 10px;
         cursor: pointer;
         a {
-          color: $primaryColor2;
+          color: $primary-color-second;
           text-decoration: none;
         }
       }
@@ -25,11 +25,11 @@
     margin: 0 auto;
   }
   .search:hover {
-    background: $primaryColor1;
+    background: $primary-color-first;
   }
   .search-form {
     padding-top: 25px;
     padding-bottom: 25px;
-    background: $primaryColor1;
+    background: $primary-color-first;
   }
 }

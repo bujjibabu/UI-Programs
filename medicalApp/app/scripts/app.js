@@ -9,13 +9,11 @@
  * Main module of the application.
  */
 angular
-  .module('medicalApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
+  .module('medicalApp', ['ngAnimate', 'ngCookies', 'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'LocalStorageModule'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -36,6 +34,6 @@ angular
       })
 
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/shop'
       });
   });
